@@ -1,0 +1,20 @@
+.contenido-principal{
+    background-color: rgb(238, 220, 255);
+    display:grid;
+    grid-template-areas: 
+    "elemento1 elemento3 elemento4"
+    "elemento2 elemento2 elemento2";
+}
+
+.elemento1{
+    grid-area: elemento1;
+}
+.elemento2{
+    grid-area: elemento2;
+}
+.elemento3{
+    grid-area: elemento3;
+}
+.elemento4{
+    grid-area: elemento4;
+}
